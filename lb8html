@@ -1,0 +1,20 @@
+<!Doctype.Html>
+<Html>
+<head>
+<title>Lab#</title>
+<Link rel= "stylesheet" href="relative path">
+</head>
+<body>
+<div class="header">
+<h1> Taehs </h1>
+<h2> Web </h2>
+<h3> 8 </h3>
+<h4> 2/7/22 </h4>
+<h5> Ethen Kushmakov </h5>
+</div>
+<div class="topnav">
+<a href="page.html">click me</a>
+</div>
+<hl></hl>
+<hl>An internal CSS is used to define a type of style for a single HTML page</hl>
+<p id= <"demo"> </p>

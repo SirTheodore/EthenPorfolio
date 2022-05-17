@@ -1,0 +1,37 @@
+p{
+color:royalblue;
+}\\
+/*Write a comment explaining what you are doing on line 2 */
+*{
+box-sizing: border-box;
+}
+/* make a prediction about line 6 rule set*/
+body{
+background-color: blue;
+color:silver;
+}
+/*style of the navigation bar */
+.topnav{
+background-color: gold;
+overflow: hidden;
+}
+/*style of the links inside the navigation bar */
+.topnav a{
+color: aqua;
+float: left;
+display: block;
+text-align:center;
+padding: 14px 16px;
+}
+/* changes color on hover or mouse over*/
+.topnav a:hover{
+background-color: aquamarine;
+color: red
+}
+/*style of the header*/
+.header{
+background-color: black;
+padding: 20px;
+text-align:right;
+color: yellow
+}

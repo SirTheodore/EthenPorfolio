@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lab 11 z-index</title>
+  <style> 
+  #lb_11{
+  border:gray solid 10px;
+  width:500px;
+  height:500px;
+  position:relative;
+  left:500px;
+  padding:13px;
+  margin:5px;
+  overflow:hidden;
+  }
+  #apple{
+  width:35px;
+  height:35px;
+  position:absolute;
+  left:250px;
+  top:150px;
+  z-index:1;
+  }
+#apple:hover{
+visibility:hidden;
+}
+</style>
+</head>
+<body>
+
+	<div class="header">
+		<hl> Thomas A. Edison HS</hl>
+		<h2> Web Design Academy </h2>
+		<h3> Lab 11 z-index </h3>
+		<h4> Ethen Kushmakov </h4>
+	</div>
+  <div id="lb_11">
+  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/images/apple-1-1492554961.jpg"id="apple">
+  <img src="http://d279m997dpfwgl.cloudfront.net/wp/2019/07/GettyImages-1146804505.jpg?s=6" id="tree">
+ </div>
+</body>
+
+</html>

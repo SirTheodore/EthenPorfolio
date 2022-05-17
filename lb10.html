@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Title Lab 10 Internal CSS </title>
+ <style>
+  /*the* works at universal selector for CSS*/
+  *{
+box-sizing:border;
+}
+
+    /*the id selector uses the id attribute of an html element to select a specific element. the id of an element is unique within a page, so the id selector is used to select one unigue element! To select an element with a specific id, write a hash (#) character, followed by the id of the element. Exmaple the CSS rule below will be applied to HTML element with id= "para1": */
+
+      /* The grouping selector selects all the HTML elements with the same style definitions. look at the folloing CSS code (the h1, h2, and p elements have the same style definitions). It will be better to group the selectors, the minimize the code. To group selectors, separate each selwctor wth a coma.*/ 
+p, h1, h3, h2{
+color:gold;
+}
+ /* A psuedo-class is used to define a special state of an element For example it can be used to: Style an element when a user mouses over it , Style visited and unvisited links diffrently, Style an element when it gets focus*/
+
+a:hover{
+color:red;
+}
+/*
+
+ The [attribute] selector is used to select elements with a specified attribute.
+
+  
+  a[target] {Background-color: royal blue;} /*
+div
+ </style>
+</head>
+
+<body>
+  
+<div class= "header">
+<h1> Thomas A. Edison HS </h1>
+<h2> Web Design Academy </h2>
+<h3> Lab 10 Internal CSS </h3>
+<h4> Ethen Kushmakov </h4>
+</div>
+<div id= "demoBox">
+  <h1> Ethen Kushmakov</h1>
+  <h1 Id= "lname"> Kushmakov </h1>
+  <h1> 2/9/22 </h1>
+<a href="index.html">home</a>
+</div>
+</body>
+</html>

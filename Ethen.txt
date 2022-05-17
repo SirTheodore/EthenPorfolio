@@ -1,0 +1,25 @@
+   
+<html>
+
+         <head>
+
+
+                  <title> My first webpage</title>
+
+
+          </head>
+          <body>  
+                   <h1>Thomas A. Edison CTE HS</h1>
+                   <h2>Web Devolepor Academy</h2>
+                   <h3>10th grade</h3>
+                   <h4> Lab 1 </h4>
+                   <h5> Intro To Hyper Text Markup Language </h5>
+                   <h6> By Ethen Kushmakov </h6>
+                   <p>  I am Ethen Kushmakov> I was born in July 6. I am 15 years old. </p> 
+                   <p>  My smart goals are to , Graduate , Become a surgeon and become rich </p>
+               
+                      </ul>
+
+                  </body>
+
+            </html>
